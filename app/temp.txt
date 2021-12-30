@@ -1,0 +1,39 @@
+
+Call:
+glm(formula = TJ_Status ~ Avg_Innings_Pitched + Avg_Games_Played + 
+    Avg_Hits_Allowed + Avg_Walks + Avg_Strikeouts + Avg_Opposing_Batting_Avg + 
+    Avg_Wild_Pitches + Avg_Batters_Hit_By_Pitch + Avg_Batters_Faced + 
+    Starter_or_Reliever + height + weight + (height * weight), 
+    family = binomial(link = "logit"), data = bb_model_data)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-1.5286  -0.3973  -0.2692  -0.1938   3.2644  
+
+Coefficients:
+                             Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                -2.228e+01  1.539e+01  -1.447 0.147772    
+Avg_Innings_Pitched         1.777e-01  7.901e-02   2.250 0.024468 *  
+Avg_Games_Played            3.992e-02  4.593e-03   8.692  < 2e-16 ***
+Avg_Hits_Allowed            1.037e-01  2.667e-02   3.887 0.000101 ***
+Avg_Walks                   7.323e-02  2.609e-02   2.807 0.004996 ** 
+Avg_Strikeouts              2.512e-02  4.813e-03   5.219 1.80e-07 ***
+Avg_Opposing_Batting_Avg   -4.482e+00  8.958e-01  -5.004 5.63e-07 ***
+Avg_Wild_Pitches            4.542e-02  4.140e-02   1.097 0.272596    
+Avg_Batters_Hit_By_Pitch    4.968e-02  4.710e-02   1.055 0.291511    
+Avg_Batters_Faced          -7.724e-02  2.657e-02  -2.907 0.003644 ** 
+Starter_or_RelieverStarter  1.560e+00  1.604e-01   9.729  < 2e-16 ***
+height                      2.053e-01  2.074e-01   0.990 0.322135    
+weight                      1.280e-01  7.265e-02   1.762 0.078023 .  
+height:weight              -1.433e-03  9.747e-04  -1.471 0.141419    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 2953.9  on 5808  degrees of freedom
+Residual deviance: 2565.2  on 5795  degrees of freedom
+AIC: 2593.2
+
+Number of Fisher Scoring iterations: 6
+

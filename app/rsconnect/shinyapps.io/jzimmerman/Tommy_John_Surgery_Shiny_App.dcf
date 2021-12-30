@@ -1,0 +1,13 @@
+name: Tommy_John_Surgery_Shiny_App
+title: Tommy_John_Surgery_Shiny_App
+username:
+account: jzimmerman
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2661265
+bundleId: 3577334
+url: https://jzimmerman.shinyapps.io/Tommy_John_Surgery_Shiny_App/
+when: 1598910482.98602
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|post_data.xlsx|test_joined.xlsx|test.xlsx|TJ_dataprep.R|Tommy John Surgery List (@MLBPlayerAnalys).xlsx
