@@ -9,3 +9,8 @@ The goal of this project was to utilize historical pitching statistics coupled w
 - Predict which pitchers are at the highest risk of needing the surgery in the next season (data was as of the 2019 season)
 - Determine the success rate (defined as player returns) for several surgeons across professional level and position
 - Analyze the length of time of recovery by position, level, team, and dominant arm
+
+### Data
+
+- [MLB Pitching Statistics](https://github.com/chadwickbureau/baseballdatabank/tree/master/core)
+- [Tommy John Surgery Data](https://docs.google.com/spreadsheets/d/1gQujXQQGOVNaiuwSN680Hq-FDVsCwvN-3AazykOBON0/edit#gid=0)
