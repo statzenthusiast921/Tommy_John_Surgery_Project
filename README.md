@@ -12,7 +12,7 @@ The goal of this project was to utilize historical pitching statistics coupled w
 
 ## Link
 
-[Tommy John Surgery Data Analysis](https://jzimmerman.shinyapps.io/Tommy_John_Surgery_Shiny_App/?_ga=2.266014858.405763992.1661361035-2118574259.1661361035)
+[Tommy John Surgery Data Analysis App](https://jzimmerman.shinyapps.io/Tommy_John_Surgery_Shiny_App/?_ga=2.266014858.405763992.1661361035-2118574259.1661361035)
 
 ### Data
 
